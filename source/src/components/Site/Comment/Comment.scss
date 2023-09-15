@@ -1,0 +1,40 @@
+.widget-comment {
+    margin: 0 auto;
+    // position: relative;
+    padding: 30px;
+    background-color:#3a3a3a;
+}
+
+.widget-comment_box {
+    max-width: 920px ;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.round-image img {
+    -webkit-border-radius: 50%;
+}
+
+.comment-details {
+    text-align: center;
+}
+
+.widget-comment__wrapper_title {
+    color: #dfc15e;
+    font-family: "Shadows Into Light", Sans-serif;
+    font-weight: 600;
+}
+
+.widget-comment__wrapper_content {
+    color: #bababa;
+    line-height: 1.6em;
+}
+
+.widget-comment__wrapper_name {
+    color: #dfc15e;
+    font-family: "Ovo", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-weight: 600;
+}

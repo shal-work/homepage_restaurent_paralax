@@ -1,0 +1,42 @@
+//1
+.background-picture {
+    background-image: url(@/assets/img/foodiesfeed.com_meanwhile-in-the-kitchen-1.jpg);
+    background-size: cover; /* масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока. */
+    position: relative;
+    background-position: center center;
+    height: 748px;
+    width: 100%;
+}
+
+.background-overlay {
+    background-color: #000000;
+    opacity: 0.6;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 748px;
+}
+
+.widget-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    z-index: 1;
+}
+
+//2
+.catalog-section__item { 
+    margin: 0 auto;
+    max-width: 470px;
+    display: flex;
+    flex-direction: column; /* расположить сверху вниз. */
+}
+
+.catalog-section__column { 
+    width: 390px;
+    display: flex;
+    flex-direction: column; /* расположить сверху вниз. */
+}
+
+
+

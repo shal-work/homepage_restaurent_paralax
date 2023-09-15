@@ -1,0 +1,198 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+    
+
+}
+
+
+@media (max-width: 414px) and (min-width: 327px) {
+
+    
+}
+
+
+// сайт ELEMENTOR3WP
+
+@media (max-width: 1024px) {
+    
+    .food img {
+        max-width: 122px !important;
+        max-height: 122px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .catalog-section { 
+        padding-right: 3% ;
+        padding-left: 3% ;
+    }
+    
+    .heading-title {
+        font-size: 45px !important;
+    }
+
+    .widget-comment_box {
+        padding: 30px 0;
+    }
+
+    .catalog-section__item_pr80 {
+        padding: 0 16px 0 50px;
+    }
+
+    .catalog-section__item_pr80 {
+        padding: 0 20px 0 0 !important;
+    }
+
+    .food {
+        padding: 0 15px 20px 0;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    .catalog-section { 
+        flex-direction: column !important; /* расположить сверху вниз */
+        text-align: center;
+        margin: 0 auto !important;
+    }
+
+
+    .divider-separator {
+        width: 14% !important;
+        max-width: 97px !important;
+    }
+
+    .catalog-section__column, .catalog-section__item {
+        width: auto !important;
+    }
+
+    .catalog-section__item {
+        max-width: 722px !important;
+    }
+
+    .catalog-section__column {
+        padding-bottom: 20px;
+    }
+
+    .heading-title {
+        font-size: 32px !important;
+    }
+
+    .grid-container {
+        grid-template-rows: repeat(3, 1fr) !important;/* 3 строки */
+        grid-template-columns: repeat(2, 1fr) !important;/* 2 столбца */
+    }
+   
+
+    .food img {
+        max-width: 325px !important;
+        max-height: 325px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .widget-comment_box {
+        padding: 70px 0;
+    }
+
+
+    .presentation { 
+        flex-direction: column !important; /* расположить сверху вниз. */
+        // height: 761px !important;
+        height: auto !important;
+    }
+
+    .presentation__description-img {
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .catalog-section__item_pr80 {
+        padding: 0 20px 0 20px !important;
+    }
+
+    .catalog-section__content_pWidth {
+        text-align: center !important;
+    }
+
+    .presentation-desktop {
+        display: none !important;
+        max-width: 758px !important;
+    }
+    
+    .presentation-mobile {
+        display: block !important;
+        // height: 680px;
+    }
+
+    .presentation__description {
+        justify-content: space-evenly;
+        max-width: 701px !important;
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: row-reverse; */
+        /* align-items: flex-end; */
+    }
+
+    .presentation__description-wrap {
+        // height: 283px !important;
+        height: auto !important;
+        padding-top: 6% !important;
+        padding-bottom: 6% !important;
+    }
+
+
+    .presentation__description__item {
+        width: 700px !important;
+        width: auto !important;
+        padding: 0 30px 0 30px !important;
+    }
+
+
+    .sliders-item-mobile {
+        height: 310px !important;
+    }
+
+    .widget-visit {
+        flex-direction: column !important;
+        align-items: center !important;
+        align-content: flex-start !important;
+    }
+
+    .widget-visit__description-wrap {
+        height: 290px !important;
+    }
+    .widget-visit-map {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+
+}
+
+// @media (max-width: 518px) {
+//     .presentation__description-wrap {
+//         height: auto !important;
+//     }
+// }
+
+
+@media (max-width: 479px) {
+    
+    .grid-container {
+        grid-template-rows: repeat(6, 1fr) !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+
+
+    }
+
+    .food {
+        padding: 0 0 20px 0 !important;
+    }
+
+    .food img{
+        max-width: 425px !important;
+        max-height: 425px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

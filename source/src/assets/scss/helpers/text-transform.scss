@@ -1,0 +1,22 @@
+
+/* Прописная (заглавная)  первая буква  */
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Прописные (заглавные)  все  */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Строчные (маленькие) все  */
+.text-lowercase {
+    text-transform: lowercase;
+}
+/* переносить или нет длинные слова */
+.text-break-word {
+    word-wrap: break-word;
+    -webkit-text-size-adjust: 100%;
+}
+    
+ 

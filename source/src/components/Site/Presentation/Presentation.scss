@@ -1,0 +1,111 @@
+
+.presentation { 
+    margin: 0 auto;
+    max-width: 940px;
+    // max-width: 50%;
+    display: flex;
+    flex-direction: row; /* расположить слева направо*/
+    /*flex-direction: column; /* расположить сверху вниз. */
+    /* flex-direction: row-reverse; */ /* расположить справа налево*/
+    /* flex-direction: row-reverse; */ /* расположить справа налево*/
+    /* align-items: flex-start; /* прижать к верхнему краю */
+    /* align-items: flex-end; */ /* прижать к нижнему краю */
+    // border: 1px solid black;
+    background-color: white;
+    justify-content: space-between; /*выравнивание  по оси в Г.П. если flex-direction: row; */
+    // height: 680px;
+}
+
+.presentation-desktop {
+    display: block;
+}
+
+.presentation-mobile {
+    display: none;
+}
+
+.presentation__description { 
+        justify-content: space-evenly; /*выравнивание  по оси в В.П. flex-direction: column; */
+        // width: 390px;
+        max-width: 385px;
+        display: flex;
+        /*flex-direction: row; /* расположить слева направо*/
+        flex-direction: column; /* расположить сверху вниз. */
+        /* flex-direction: row-reverse; */ /* расположить справа налево*/
+        /* align-items: flex-start; /* прижать к верхнему краю */
+        /* align-items: flex-end; */ /* прижать к нижнему краю */
+        /*justify-content: center;/*выравнивание  по оси в Г.П.*/
+        //  border: 1px solid gray;
+        
+}
+
+.presentation__description-wrap {
+    // height: 352px;
+    height: 323px;
+    padding-top: 6%;
+    margin: 0 auto;
+}
+.presentation__description-img {
+    width: 50%;
+    background-color: #eeee;
+}
+
+.presentation__description_title {
+    // background-color: white;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.presentation__description_title h2 {
+    color: #dfc15e;
+    font-family: "Ovo", Sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.presentation__description__item { 
+    padding: 0 8px 0 8px;
+}
+
+
+
+.background-food-preview__homemade-waffles {
+    background-image: url(@/assets/img/foodiesfeed.com_homemade-waffles-with-coffee.jpg);
+    background-position: 100% 48%; //0% 0% (в левом верхнем углу)
+    // background-position: 100% 0%; //100% 0% (в правом верхнем углу)
+    // background-position: 0% 100%; //0% 100% (в левом нижнем углу)
+    // background-position: 100% 100%; //100% 100% (в правом нижнем углу)
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+}
+
+.background-food-preview__wedding_15 {
+    background-image: url(@/assets/img/foodiesfeed.com_Wedding_15-crop.jpg);
+    background-position: 100% 48%; //0% 0% (в левом верхнем углу)
+    // background-position: 100% 0%; //100% 0% (в правом верхнем углу)
+    // background-position: 0% 100%; //0% 100% (в левом нижнем углу)
+    // background-position: 100% 100%; //100% 100% (в правом нижнем углу)
+    background-repeat: no-repeat;
+    background-size: cover;
+    // width: 470px;
+    width: 100%;
+    height: 380px;
+    // height: 100%;
+}
+
+// .background-food-preview__slider {
+.background-food-preview__latte-crop {
+    background-image: url(@/assets/img/foodiesfeed.com_traditional-czech-honey-cake-caffee-latte-crop.jpg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // width: 470px;
+    // height: 380px;
+    // width: 50%;
+    width: 100%;
+    // height: 100%;
+    height: 380px;
+}
+

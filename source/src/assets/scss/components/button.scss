@@ -1,0 +1,173 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid $primary;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $dark;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all 0.2s;
+    &:hover {
+        background-color: lighten($primary, 10%);
+        color: #fff;
+    }
+    &-primary {
+        background-color: $primary;
+        border-color: $primary;
+        color: #fff;
+        &:hover {
+            background-color: darken($primary, 10%);
+        }
+    }
+    &-success {
+        background-color: $success;
+        border-color: $success;
+        color: #fff;
+        &:hover {
+            background-color: darken($success, 10%);
+        }
+    }
+    &-danger {
+        background-color: $danger;
+        border-color: $danger;
+        color: #fff;
+        &:hover {
+            background-color: darken($danger, 10%);
+        }
+    }
+    &-warning {
+        background-color: $warning;
+        border-color: $warning;
+        color: #fff;
+        &:hover {
+            background-color: darken($warning, 10%);
+        }
+    }
+    &-dark {
+        background-color: $dark;
+        border-color: $dark;
+        color: #fff;
+        &:hover {
+            background-color: darken($dark, 10%);
+        }
+    }
+    &-outline-primary {
+        border-color: $primary;
+        color: $primary;
+        &:hover {
+            background-color: $primary;
+        }
+    }
+    &-outline-success {
+        border-color: $success;
+        color: $success;
+        &:hover {
+            background-color: $success;
+        }
+    }
+    &-outline-danger {
+        border-color: $danger;
+        color: $danger;
+        &:hover {
+            background-color: $danger;
+        }
+    }
+    &-outline-warning {
+        border-color: $warning;
+        color: $warning;
+        &:hover {
+            background-color: $warning;
+        }
+    }
+    &-outline-dark {
+        border-color: $dark;
+        color: $dark;
+        &:hover {
+            background-color: $dark;
+        }
+    }
+    &-block {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+.btn-elementor2wp {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: transparent;
+    // border-radius: 4px;
+    cursor: pointer;
+    color: $dark;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all 0.2s;
+    &:hover {
+        background-color: lighten($primary, 10%);
+        color: #fff;
+    }
+    
+    &-link {
+        background-color: $warning-2;
+        border-color: $warning-2;
+        color: #fff;
+        // width: 209px;
+        min-width: 209px;
+        height: 58px;
+        &:hover {
+            background-color: darken($dark-2, 10%);
+        }
+    }
+    &-block {
+        display: block;
+        width: 100%;
+    }
+}
+
+.btn-elementor3wp, .btn-oval-transparent {
+    display: inline-block; //располагать в г.п.
+    padding: 12px 24px;
+    border: 1px solid $primary;
+    // background-color: transparent; //прозрачный фон
+    opacity: 1;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $dark; //цвет шрифта - по умолчанию
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle; //Выравнивание средней точки элемента по базовой линии родителя плюс половина высоты родительского элемента.
+    font-size: 14px;
+    line-height: 1.5; //межстрочный интервал
+    transition: all 0.2s; //анимация применить ко всем изменнным св-вам, которые будут меняться в :hover, длительность 0.2s
+    &:hover {
+        background-color: #dfc15e;
+        color: #fff;
+    }
+    &-text {
+        font-family: "Roboto", Sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &-link {
+        line-height: 1em;
+        fill: #dfc15e;
+        color: #dfc15e;
+        background-color: rgba(223,193,94,0);
+        border: 1px solid #dfc15e;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-radius: 50px 50px 50px 50px
+    }
+}

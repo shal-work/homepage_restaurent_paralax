@@ -1,0 +1,189 @@
+.background-picture-addition {
+    background-position: 50% 50%; // по центру
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    // height: 649px;
+    height: 100%;
+}
+
+.bg-fon {
+    background-color:rgba(0,0,0,.75);
+    width:100%;
+        // height: 649px;
+        height: 100%;
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+
+.widget-overlay_box {
+    max-width: 940px ;
+    margin: 0 auto;
+    position: relative;
+    padding: 80px 0 80px 0;
+}
+
+ 
+.widget-overlay__wrapper_title {
+    color: #dfc15e;
+    font-family: "Shadows Into Light", Sans-serif;
+    font-weight: 600;
+}
+
+.widget-overlay__wrapper_content {
+    color: #bababa;
+    line-height: 1.6em;
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+
+}
+
+.widget-overlay__wrapper_content p {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.image-carousel {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.wrap-flex-row-stretched-overflow { 
+    // height: 200px;
+    display: flex;
+    flex-direction: row; /* расположить слева направо*/
+    /* flex-direction: row-reverse; */ /* расположить справа налево*/
+    align-items: flex-start; /* прижать к верхнему краю */
+    /* align-items: flex-end;  /* прижать к нижнему краю, если есть height*/
+    /*justify-content: space-evenly; /* все два рядя симметрично вертикальной оси*/
+    overflow: hidden;
+    align-items: center;
+}
+
+.wrap-flex-row-stretched { 
+    //  height: 400px;
+     display: flex;
+     flex-direction: row; /* расположить слева направо*/
+     /* flex-direction: row-reverse; */ /* расположить справа налево*/
+     align-items: flex-start; /* прижать к верхнему краю */
+     /* align-items: flex-end;  /* прижать к нижнему краю, если есть height*/
+     align-items: center; /* по центру г.п.*/
+}
+
+.wrap-flex-row-stretched i {
+    cursor: pointer;
+    width: 10px;
+    // padding: 40px 0;
+    margin: 0 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.image-carousel-item {
+    display: flex;
+    flex-direction: row; /* расположить слева направо*/
+    align-items: flex-start; /* прижать к верхнему краю */
+    align-items: center;
+}
+
+
+.item-img img {
+    width: 273px;
+    height: 170px;
+    border-radius: 6px 6px 6px 6px;
+    margin:0 10px;
+}
+
+.style-angle {
+    color: beige;
+   
+}
+
+
+.style-angle::before {
+    font-weight: 900;
+    margin-right: -6px; 
+    // font-size: large;
+    font-size: 26px;
+    color: beige;
+}
+
+.eicon-editor-link, .eicon-chevron-right {
+    margin-right: 10px;
+}
+
+
+.btn-oval-transparent {
+    display: inline-block; //располагать в г.п.
+    padding: 12px 24px;
+    border: 1px solid $primary;
+    // background-color: transparent; //прозрачный фон
+    opacity: 1;
+    border-radius: 4px;
+    cursor: pointer;
+    color: $dark; //цвет шрифта - по умолчанию
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle; //Выравнивание средней точки элемента по базовой линии родителя плюс половина высоты родительского элемента.
+    font-size: 14px;
+    line-height: 1.5; //межстрочный интервал
+    transition: all 0.2s; //анимация применить ко всем изменнным св-вам, которые будут меняться в :hover, длительность 0.2s
+    &:hover {
+        background-color: #dfc15e;
+        color: #fff;
+    }
+    &-text {
+        font-family: "Roboto", Sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &-link {
+        line-height: 1em;
+        fill: #dfc15e;
+        color: #dfc15e;
+        background-color: rgba(223,193,94,0);
+        border: 1px solid #dfc15e;
+        border-style: solid;
+        border-width: 2px 2px 2px 2px;
+        border-radius: 50px 50px 50px 50px
+    }
+}
+
+
+
+//1
+@keyframes slideOutRight33per{
+    from {
+        transform: translate3d(calc(var(--my-start-per)* -1), 0, 0);
+    }
+    to {
+        visibility: visible;
+        transform: translate3d(calc(var(--my-end-per)* -1), 0, 0);
+    }
+}
+//1
+.slideOutRight33per {
+    animation-name: slideOutRight33per;
+}
+//1
+@keyframes slideOutLeft33per {
+    from {
+        transform: translate3d(calc(var(--my-start-per)* -1), 0, 0);
+    }
+    to {
+        visibility: visible;
+        transform: translate3d(calc(var(--my-end-per)* -1), 0, 0);
+    }
+}
+//1
+.slideOutLeft33per {
+    animation-name: slideOutLeft33per;
+}

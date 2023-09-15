@@ -1,0 +1,72 @@
+
+//2
+.catalog-section { 
+    margin: 0 auto;
+    max-width: 940px;
+    display: flex;
+    flex-direction: row;
+
+	@media (max-width: 1024px) { 
+		padding-right: 3% ;
+        padding-left: 3% ;
+	}
+	@media (max-width: 767px) { 
+		.catalog-section { 
+			flex-direction: column !important; /* расположить сверху вниз */
+			text-align: center;
+			margin: 0 auto !important;
+		}
+	}
+
+}
+.catalog-section__item { 
+    margin: 0 auto;
+    max-width: 470px;
+    display: flex;
+    flex-direction: column; /* расположить сверху вниз. */
+}
+
+.catalog-section__column { 
+    width: 390px;
+    display: flex;
+    flex-direction: column; /* расположить сверху вниз. */
+}
+
+.catalog-section__item_pr80 {
+    padding: 0 80px 0 0;
+}
+
+.heading-title {
+    color: #dfc15e;
+    font-family: "Ovo", Sans-serif;
+    // font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+
+
+.catalog-section__content_pWidth {
+    text-align: justify;
+}
+
+.grid-container {
+    max-width: 940px; 
+    margin: 0 auto;
+    width:auto;
+    display: grid;  
+    grid-template-rows: repeat(2, 1fr);/* 2 строки */
+    grid-template-columns: repeat(3, 1fr);/* 3 столбца */
+    margin: auto 0 0 0;
+}
+
+.food {
+    padding: 0 20px 20px 0; 
+} 
+    
+.food img {
+    max-width: 136px;
+    max-height: 136px;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,109 @@
+/* 9.1_HTML css по центру_display_inline-block */
+.wpap-display-inline-block {
+    text-align: center;
+    position: relative; 
+    top: 0px;
+ }
+ .wpap-display-inline-block-item {
+    display: inline-block;
+ }
+ /* end */
+ 
+ /* 9.2_HTML css по центру_margin_0_auto вар-1 */
+ .wrap-margin-0-auto {
+    margin: 0 auto !important;
+ }
+
+ .wrap-margin-0-auto-width {
+    margin: 0 auto !important;
+    width: 0px;
+ }
+ /* end */
+ 
+ /* 9.2_HTML css по центру_margin_0_auto вар-2 */
+ .wrap-margin-left {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px; /*половина ширины items*/
+ }
+ /* end */
+ 
+ 
+ /* 10.3_HTML css по центру_таблица */
+ .wrap-table {
+    display: table;
+    position: relative;
+    background: #f0f0f0;
+    height: 600px;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+ .wrap-table-cell {
+    display: table-cell; /*определяет ячейку таблицы*/
+    background: #f0f0f0;
+    text-align: center;
+    vertical-align: middle;
+    border: 4px double blue;
+ }
+ .wrap-table-row {
+    display: table-row; /*определяет строку таблицы */
+    /* text-align: center; уже определили в .table*/
+ }
+ .wrap-table-inline-block {
+    display: inline-block;
+ }
+ /* end */
+ 
+ /* 10.5_HTML css по центру_float */
+ .wrap-float-left-width-6 {
+    width: 16%; /* доля одного элемента*/
+    float: left;
+ }
+ .wrap-float-left-width-5 {
+    width: 20%; /* доля одного элемента*/
+    float: left;
+ }
+ .wrap-float-left-width-4 {
+    width: 25%; /* доля одного элемента*/
+    float: left;
+ }
+ .wrap-float-left-width-3 {
+    width: 33%; /* доля одного элемента*/
+    float: left;
+ }
+ .wrap-float-left-width-2 {
+    width: 50%; /* доля одного элемента*/
+    float: left;
+ }
+ .wrap-float-left-width-margin-0-auto {
+    margin: 0 auto !important;
+ }
+ /* end */
+ 
+ /* 16.7	По 11 HTML css по центру_Flexbox */
+ .wrap-flex-row-stretched { 
+   //  height: 400px;
+    display: flex;
+    flex-direction: row; /* расположить слева направо*/
+    /* flex-direction: row-reverse; */ /* расположить справа налево*/
+    align-items: flex-start; /* прижать к верхнему краю */
+    /* align-items: flex-end;  /* прижать к нижнему краю, если есть height*/
+    align-items: center; /* по центру г.п.*/
+ }
+ .wrap-flex-row-stretched-item { 
+     margin: 0 auto;
+ }
+ /* end */
+ 
+ /* 16.8	По 12_HTML JavaScript css по центру_4_2_flexbox */
+ .wrap-flex-row-wrap-center { 
+    /* height: 400px; */
+    /* background: #f0f0f0; */
+    display: flex;
+    flex-flow: row wrap;/*row - направление сл.на пр.; wrap - несколько рядов */
+    /*align-content: center;/*выравнивание  по оси в В.П. если есть height*/
+    justify-content:center;/*выравнивание  по оси в Г.П.*/
+   
+ }
+ /* end */

@@ -1,0 +1,201 @@
+
+.landing {
+    background: #32332e;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    z-index: 1;
+    will-change: opacity, transform;
+	// overflow: hidden visible; 
+}
+
+.landing__parallax {
+    position: fixed;
+    z-index: 3;
+}
+
+.layer {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+	width: 100vw;
+    height: 100vh;
+	will-change: opacity, transform;
+    z-index: 30;
+}
+.confetti {
+    position: absolute;
+    height: 49px;
+    width: 14px;
+}
+
+
+.layer:nth-child(1) .confetti {
+    top: 12.5%;
+    left: 34.21875%;
+}
+.layer:nth-child(2) .confetti {
+    top: 15.25%;
+    left: 57.26562%;
+}
+.layer:nth-child(3) .confetti {
+    top: 6.875%;
+    left: 73.04688%;
+}
+.layer:nth-child(4) .confetti {
+    top: 35.125%;
+    left: 8.59375%;
+}
+.layer:nth-child(5) .confetti {
+    top: 48.625%;
+    left: 82.34375%;
+}
+.layer:nth-child(6) .confetti {
+    top: 61%;
+    left: 16.09375%;
+}
+.layer:nth-child(7) .confetti {
+    top: 73.25%;
+    left: 68.51562%;
+}
+.layer:nth-child(8) .confetti {
+    top: 81.625%;
+    left: 6.17188%;
+}
+.layer:nth-child(9) .confetti {
+    top: 84.5%;
+    left: 56.79688%;
+}
+.layer:nth-child(10) .confetti {
+    top: 94.25%;
+    left: 25.46875%;
+}
+.layer:nth-child(11) .confetti {
+    top: 93.75%;
+    left: 88.4375%;
+}
+.layer:nth-child(12) .confetti {
+    top: 6.25%;
+    left: 23.4375%;
+}
+
+
+ul {
+    position: relative;
+    transform: translate3d(0px, 0px, 0px);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+li {
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 0px;
+    transform: translate3d(30px, -10.44px, 0px);
+}
+
+.confetti--marshmallow {
+    background-color: #fff;
+}
+.confetti--sky {
+    background-color: #b6e2e1;
+}
+.confetti--carrot {
+    background-color: #f36d23;
+}
+.confetti--purple {
+    background-color: #c3c3c4;
+}
+.confetti--mustard {
+    background-color: #fecf54;
+}
+.confetti--pickle {
+    background-color: #dde462;
+}
+
+.layer {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+	width: 100vw;
+    height: 100vh;
+	will-change: opacity, transform;
+}
+
+.icons {
+    position: absolute;
+    width: 50px;
+}
+
+.layer:nth-child(13) .icons {
+    top: 12.5%;
+    left: 7.34375%;
+}
+
+.layer:nth-child(14) .icons {
+    top: 10.625%;
+    left: 21.95312%;
+}
+.layer:nth-child(15) .icons {
+    top: 12.5%;
+    left: 86.71875%;
+}
+.layer:nth-child(16) .icons {
+    top: 45%;
+    left: 21.875%;
+}
+.layer:nth-child(17) .icons {
+    top: 70.875%;
+    left: 69.53125%;
+}
+.layer:nth-child(18) .icons {
+    top: 48.375%;
+    left: 90.03125%;
+}
+.layer:nth-child(19) .icons {
+    top: 70%;
+    left: 12.5%;
+}
+
+
+.filter-green {
+    filter: hue-rotate(20deg) contrast(10%)  invert(20%)  sepia(30%) grayscale(10%) saturate(2500%);
+    /* filter: hue-rotate(86deg) contrast(100%) brightness(10%) grayscale(10%) invert(48%) sepia(79%) saturate(2476%); */
+    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
+    /* filter: invert(48%) sepia(79%)  saturate(2476%)  hue-rotate(86deg) brightness(118%) contrast(119%); */
+    /* filter:#5a074c; */
+    /* color: blue; */
+}
+
+
+
+.widget-container-landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 1;
+}
+
+.transition-02 {
+    transition: 0.11s ease-out;
+    -webkit-transition: 0.11s ease-out;
+    // -webkit-transition: .2s cubic-bezier(0.4, 0, 1, 1);
+}
+.transition-07 {
+    transition: 0.7s ease-out;
+    -webkit-transition: 0.7s ease-out;
+}
+
+
+// .load-in--confetti {
+//     transform: translate(0vh, 0vw); 
+// }
